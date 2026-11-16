@@ -1,27 +1,27 @@
-# Source Health - 2026-11-15
+# Source Health - 2026-11-16
 
-Generated at: 2026-11-15T11:01:46.535717+08:00
+Generated at: 2026-11-16T11:00:53.004992+08:00
 
 | Source | Type | State | Status | Items | Max score | Avg score | Duration | Priority | Topics |
 |---|---|---|---:|---:|---:|---:|---:|---|---|
-| Agent-Reach | github | keep | ok | 1 | 71 | 71.0 | 0.602s | P0 | Agent 工具生态, 网页抓取与信息入口 |
-| AI News Radar | github | keep | ok | 1 | 61 | 61.0 | 0.788s | P0 | AI 信息雷达与信源治理 |
-| Scrapling | github | keep | ok | 1 | 75 | 75.0 | 0.84s | P0 | 网页抓取与信息入口 |
-| Hacker News | rss | observe | partial | 8 | 30 | 19.38 | 2.798s | P2 | Agent 工具生态, 网页抓取与信息入口, AI 编程与工具调用稳定性 |
-| GitHub Blog | rss | keep | ok | 5 | 33 | 25.6 | 3.687s | P1 | AI 编程与工具调用稳定性, 开源安全与供应链 |
-| OpenAI Blog | rss | keep | partial | 5 | 32 | 25.8 | 0.628s | P1 | 模型评估与科研智能, AI 编程与工具调用稳定性 |
-| Anthropic News | rss | observe | empty | 0 | 0 | 0.0 | 0.222s | P2 | Agent 工具生态, AI 编程与工具调用稳定性 |
-| Google DeepMind Blog | rss | observe | empty | 0 | 0 | 0.0 | 0.492s | P2 | 模型评估与科研智能 |
-| The Batch | rss | observe | empty | 0 | 0 | 0.0 | 0.059s | P2 | 模型评估与科研智能, AI 信息雷达与信源治理 |
-| Product Hunt Daily | rss | degrade | partial | 8 | 9 | 5.25 | 0.371s | P2 | AI 产品与工作流, Agent 工具生态 |
-| Simon Willison | rss | keep | ok | 5 | 38 | 32.0 | 0.324s | P1 | AI 编程与工具调用稳定性, Agent 工具生态, 模型评估与科研智能 |
-| Daily JS | rss | observe | empty | 0 | 0 | 0.0 | 134.642s | P3 | AI 编程与工具调用稳定性 |
-| GitHub Trending Python | page | keep | ok | 1 | 67 | 67.0 | 1.192s | P1 | Agent 工具生态, 网页抓取与信息入口, AI 编程与工具调用稳定性 |
-| GitHub Trending | page | keep | ok | 1 | 64 | 64.0 | 1.021s | P1 | Agent 工具生态, 网页抓取与信息入口, AI 产品与工作流 |
+| Agent-Reach | github | keep | ok | 1 | 71 | 71.0 | 0.71s | P0 | Agent 工具生态, 网页抓取与信息入口 |
+| AI News Radar | github | keep | ok | 1 | 61 | 61.0 | 0.851s | P0 | AI 信息雷达与信源治理 |
+| Scrapling | github | keep | ok | 1 | 75 | 75.0 | 0.791s | P0 | 网页抓取与信息入口 |
+| Hacker News | rss | observe | partial | 8 | 24 | 17.5 | 5.922s | P2 | Agent 工具生态, 网页抓取与信息入口, AI 编程与工具调用稳定性 |
+| GitHub Blog | rss | keep | ok | 5 | 33 | 25.6 | 4.074s | P1 | AI 编程与工具调用稳定性, 开源安全与供应链 |
+| OpenAI Blog | rss | keep | partial | 5 | 32 | 25.2 | 0.84s | P1 | 模型评估与科研智能, AI 编程与工具调用稳定性 |
+| Anthropic News | rss | observe | empty | 0 | 0 | 0.0 | 0.47s | P2 | Agent 工具生态, AI 编程与工具调用稳定性 |
+| Google DeepMind Blog | rss | observe | empty | 0 | 0 | 0.0 | 0.519s | P2 | 模型评估与科研智能 |
+| The Batch | rss | observe | empty | 0 | 0 | 0.0 | 0.064s | P2 | 模型评估与科研智能, AI 信息雷达与信源治理 |
+| Product Hunt Daily | rss | degrade | partial | 8 | 16 | 6.88 | 0.306s | P2 | AI 产品与工作流, Agent 工具生态 |
+| Simon Willison | rss | keep | ok | 5 | 37 | 34.2 | 0.33s | P1 | AI 编程与工具调用稳定性, Agent 工具生态, 模型评估与科研智能 |
+| Daily JS | rss | observe | empty | 0 | 0 | 0.0 | 132.627s | P3 | AI 编程与工具调用稳定性 |
+| GitHub Trending Python | page | keep | ok | 1 | 63 | 63.0 | 1.246s | P1 | Agent 工具生态, 网页抓取与信息入口, AI 编程与工具调用稳定性 |
+| GitHub Trending | page | keep | ok | 1 | 72 | 72.0 | 1.072s | P1 | Agent 工具生态, 网页抓取与信息入口, AI 产品与工作流 |
 
 ## Warnings
 
-- **Hacker News**: partial / observe - trafilatura extracted empty text; trafilatura returned empty response; trafilatura extracted empty text
+- **Hacker News**: partial / observe - trafilatura extracted empty text; trafilatura extracted empty text
 - **OpenAI Blog**: partial / keep - trafilatura returned empty response; trafilatura returned empty response; trafilatura returned empty response
 - **Anthropic News**: empty / observe - no items returned
 - **Google DeepMind Blog**: empty / observe - no items returned
